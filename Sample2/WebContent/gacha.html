@@ -1,0 +1,29 @@
+<html>
+<head><title>ガチャ</title><meta charset="UTF-8"></head>
+<body>
+<center>
+<h2>ガチャ</h2>
+<hr/>
+<form action="http://localhost:8080/Sample2/gacha" method="GET">
+何回引くのん？(一回200円)<br/>
+単発
+<input type="radio" name="money" value="1"/><br>
+十連
+<input type="radio" name="money" value="10"/></br>
+全財産を入力してね<br/>
+<input type="text" name="regacy" value="10000"/>
+
+
+<input type="hidden" name="regacysum" value="0"/>
+<input type="hidden" name="urSUM" value="0"/>
+<input type="hidden" name="srSUM" value="0"/>
+<input type="hidden" name="rSUM" value="0"/>
+<input type="hidden" name="dustSUM" value="0"/><br>
+
+<input type="submit" value="送信"/>
+
+
+</form>
+</center>
+</body>
+</html>
